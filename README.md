@@ -1,6 +1,6 @@
 # Moonshot.Express Platform
 
-####The collaboration platform for moonshot.express
+**The collaboration platform for moonshot.express**
 
 ## Description
 This platform is the backbone of Moonshot.Express. Quests are defined and rewards are issues on this platform.
