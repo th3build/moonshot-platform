@@ -1,0 +1,10 @@
+# Composer & NPM packages
+vendor
+node_modules
+
+# Logs'n'stuff
+*.log
+
+# Includable dev
+.scholica
+.phpstorm.meta.php

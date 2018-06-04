@@ -1,0 +1,24 @@
+/**
+ * Copyright 2017 Includable
+ * Created by Thomas Schoffelen
+ */
+
+/*
+ * Your CSS file.
+ */
+
+.content-inner {
+    padding-top: 48px;
+}
+
+.content-inner h1 {
+    font-weight: bold;
+}
+
+.content-inner h3 {
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}

@@ -1,0 +1,34 @@
+{
+   "slug": "platform",
+   "name": "moonshot/platform",
+   "title": "Platform",
+   "description": "Includable app for Platform.",
+   "controllers": {
+      "web": "web/index.php",
+      "api": "api/index.php"
+   },
+   "webOptions": {
+      "staticPaths": [
+         "web/static/**"
+      ],
+      "translations": {
+         "en_US": "web/locales/en_US.json",
+         "nl_NL": "web/locales/nl_NL.json"
+      },
+      "catchAll": true
+   },
+   "scripts": {
+      "post-create": "npm install; npm run build-dev",
+      "pre-run": "if [ ! -d node_modules ]; then npm install; fi",
+      "run": "npm run dev"
+   },
+   "_starter": {
+      "minVersion": "1.7"
+   },
+   "authors": [
+      {
+         "name": "Thomas Schoffelen",
+         "email": "thomas@includable.com"
+      }
+   ]
+}
