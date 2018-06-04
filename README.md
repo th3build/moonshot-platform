@@ -38,4 +38,4 @@ Keep the terminal command running in the background, and you can start developin
 
 ## Documentation
 
-#### COMING SOON
+**COMING SOON**
