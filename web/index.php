@@ -25,5 +25,7 @@ Route::get('/example-endpoint', function() {
 Route::catch(function() {
     view('index', [
         'baseUrl' => $this->request->base_url
+    ], [
+      'navbar' => false
     ]);
 });

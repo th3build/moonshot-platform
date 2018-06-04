@@ -11,6 +11,9 @@
       "staticPaths": [
          "web/static/**"
       ],
+      "publicPaths": [
+         "**"
+      ],
       "translations": {
          "en_US": "web/locales/en_US.json",
          "nl_NL": "web/locales/nl_NL.json"
